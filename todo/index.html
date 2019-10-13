@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>TODO APP</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+    <h1>TODO App</h1>
+    <div id="taskInfo">現在のTODOはありません。</div>
+    <div>
+      <input type="text" id="inputTodo">
+      <button onclick="addTodo()" id="addButton" style="display:inline">追加</button>
+      <button onclick="editTodo()" id="editButton" style="display:none">編集</button>
+    </div>
+    <ul id="todoList"></ul>
+    <script src="main.js"></script>
+</body>
+</html>
